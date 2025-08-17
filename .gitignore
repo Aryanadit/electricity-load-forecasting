@@ -1,5 +1,6 @@
 # Python
 __pycache__/
+.gitignore
 *.py[cod]
 *$py.class
 *.so
@@ -58,7 +59,6 @@ Thumbs.db
 *.hdf5
 
 # Results and outputs
-results/
 outputs/
 models/
 *.pkl
