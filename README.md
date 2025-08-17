@@ -78,22 +78,22 @@ This project demonstrates **machine learning-based electricity load forecasting*
 ## 📊 Results Visualization
 
 ### Model Performance Comparison
-![Model Comparison](./results/model_comparison.png)
+![Model Comparison](https://github.com/Aryanadit/electricity-load-forecasting/raw/main/results/model_comparison.png)
 
 *Comparison of Linear Regression, Decision Tree, and Random Forest predictions against actual electricity demand values. Random Forest shows the best performance with 98% accuracy.*
 
 ### Feature Importance Analysis
-![Feature Importance](./results/feature_importance.png)
+![Feature Importance](https://github.com/Aryanadit/electricity-load-forecasting/raw/main/results/feature_importance.png)
 
 *Random Forest feature importance ranking showing that temporal features (hour of day, day of week) are most critical for accurate demand forecasting.*
 
 ### Predictions vs Actual Values
-![Predictions vs Actual](./results/predictions_vs_actual.png)
+![Predictions vs Actual](https://github.com/Aryanadit/electricity-load-forecasting/raw/main/results/predictions_vs_actual.png)
 
 *Time series comparison and scatter plot showing Random Forest predictions vs actual demand values, demonstrating excellent model performance.*
 
 ### Demand Pattern Analysis
-![Demand Patterns](./results/demand_patterns.png)
+![Demand Patterns](https://github.com/Aryanadit/electricity-load-forecasting/raw/main/results/demand_patterns.png)
 
 *Analysis of electricity demand patterns across daily, weekly, and monthly cycles, plus demand distribution for better understanding of consumption behavior.*
 
