@@ -92,10 +92,6 @@ This project demonstrates **machine learning-based electricity load forecasting*
 
 *Time series comparison and scatter plot showing Random Forest predictions vs actual demand values, demonstrating excellent model performance.*
 
-### Demand Pattern Analysis
-![Demand Patterns](https://github.com/Aryanadit/electricity-load-forecasting/raw/main/results/demand_patterns.png)
-
-*Analysis of electricity demand patterns across daily, weekly, and monthly cycles, plus demand distribution for better understanding of consumption behavior.*
 
 ## 🚀 Getting Started
 
@@ -174,7 +170,6 @@ The Random Forest model reveals that **temporal features** are most critical:
 ## 🤝 Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
-
 
 
 ## 🙏 Acknowledgments
