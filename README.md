@@ -1,9 +1,17 @@
 # ⚡ Electricity Load Forecasting using Machine Learning
 
+<div align="center">
+
+![Energy Forecasting](https://img.shields.io/badge/Energy%20Forecasting-ML%20Project-blue?style=for-the-badge&logo=python)
+![Accuracy](https://img.shields.io/badge/Accuracy-98%25-green?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Production%20Ready-brightgreen?style=for-the-badge)
+
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange.svg)](https://jupyter.org/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Kaggle](https://img.shields.io/badge/Dataset-Kaggle-red.svg)](https://www.kaggle.com/datasets/robikscube/electricity-load-forecasting)
+
+</div>
 
 > **Accurate electricity demand prediction using advanced ML techniques to support grid reliability and resource optimization.**
 
@@ -25,6 +33,15 @@ This project demonstrates **machine learning-based electricity load forecasting*
   - **Weather:** Temperature (T2M), humidity (QV2M), wind speed (W2M)
   - **Historical:** Lag features, rolling averages, moving window statistics
   - **Target:** Electricity demand (DEMAND) in MW
+
+## 🛠️ Technology Stack
+
+- **Language:** Python 3.8+
+- **ML Framework:** Scikit-learn
+- **Data Processing:** Pandas, NumPy
+- **Visualization:** Matplotlib, Seaborn
+- **Notebook:** Jupyter
+- **Version Control:** Git
 
 ## 🚀 Key Features & Techniques
 
@@ -61,16 +78,24 @@ This project demonstrates **machine learning-based electricity load forecasting*
 ## 📊 Results Visualization
 
 ### Model Performance Comparison
-![Model Comparison](results/model_comparison.png)
+![Model Comparison](./results/model_comparison.png)
+
+*Comparison of Linear Regression, Decision Tree, and Random Forest predictions against actual electricity demand values. Random Forest shows the best performance with 98% accuracy.*
 
 ### Feature Importance Analysis
-![Feature Importance](results/feature_importance.png)
+![Feature Importance](./results/feature_importance.png)
+
+*Random Forest feature importance ranking showing that temporal features (hour of day, day of week) are most critical for accurate demand forecasting.*
 
 ### Predictions vs Actual Values
-![Predictions vs Actual](results/predictions_vs_actual.png)
+![Predictions vs Actual](./results/predictions_vs_actual.png)
+
+*Time series comparison and scatter plot showing Random Forest predictions vs actual demand values, demonstrating excellent model performance.*
 
 ### Demand Pattern Analysis
-![Demand Patterns](results/demand_patterns.png)
+![Demand Patterns](./results/demand_patterns.png)
+
+*Analysis of electricity demand patterns across daily, weekly, and monthly cycles, plus demand distribution for better understanding of consumption behavior.*
 
 ## 🚀 Getting Started
 
